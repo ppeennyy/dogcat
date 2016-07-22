@@ -12,11 +12,12 @@
     color: #000000;
     text-align: center;
     font-size: 20px;
-    padding: 10px;
-    width: 150px;
+    padding: 3px;
+    width: 125px;
     transition: all 1s;
     cursor: pointer;
-    margin: 8px;
+    margin: 4px;
+    font-family: cursive;
     }
     .button span {
     cursor: pointer;
@@ -29,11 +30,11 @@
     position: absolute;
     opacity: 0;
     top: 0;
-    right: 10px;
+    right: 2px;
     transition: 1s;
     }
     .button:hover span {
-    padding-right: 40px;
+    padding-right: 35px;
     }
     .button:hover span:after {
     opacity: 1;
@@ -51,8 +52,8 @@
     }
     main {
     position: fixed;
-    top: 80px; /* Set this to the height of the header */
-    bottom: 50px; /* Set this to the height of the footer */
+    top: 85px; /* Set this to the height of the header */
+    bottom: 43px; /* Set this to the height of the footer */
     left: 150px;
     right: 200px;
     overflow: auto;
@@ -73,24 +74,25 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 43px;
     overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
     background: #BCCE98;
     }
     
     #left {
     position: absolute;
-    top: 80px; /* Set this to the height of the header */
-    bottom: 50px; /* Set this to the height of the footer */
+    top: 85px; /* Set this to the height of the header */
+    bottom: 43px; /* Set this to the height of the footer */
     left: 0;
     width: 150px;
-    overflow: hidden; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
     background: #DAE9BC;
+
     }
     #right {
     position: absolute;
-    top: 80px; /* Set this to the height of the header */
-    bottom: 50px; /* Set this to the height of the footer */
+    top: 85px; /* Set this to the height of the header */
+    bottom: 43px; /* Set this to the height of the footer */
     right: 0;
     width: 200px;
     overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
@@ -103,6 +105,9 @@
     .innerfooter {
     display: table;
     margin:0 auto;
+    font-size: 10px;
+    line-height: 1.2em;
+  
     }
     .innerheader {
     display: table;
@@ -111,6 +116,7 @@
     font-weight: bolder;
     text-align: center;
     line-height: 1.2em;
+
     }
     
     p {
@@ -172,6 +178,11 @@
     <button class="button"><span>Donate </span></button>
     <button class="button"><span>Adopt </span></button>
     <button class="button"><span>Messages </span></button>
+    <button class="button"><span>Liking </span></button>
+    <button class="button"><span>Liking </span></button>
+    <button class="button"><span>Liking </span></button>
+    <button class="button"><span>Liking </span></button>
+    <button class="button"><span>Liking </span></button>
     <button class="button"><span>Liking </span></button>
   </nav>
   <div id="right">
