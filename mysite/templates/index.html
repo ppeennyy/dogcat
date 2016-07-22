@@ -84,7 +84,7 @@
     bottom: 50px; /* Set this to the height of the footer */
     left: 0;
     width: 150px;
-    overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    overflow: hidden; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
     background: #DAE9BC;
     }
     #right {
@@ -99,6 +99,18 @@
     
     .innertube {
     margin: 15px; /* Provides padding for the content */
+    }
+    .innerfooter {
+    display: table;
+    margin:0 auto;
+    }
+    .innerheader {
+    display: table;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.2em;
     }
     
     p {
@@ -141,8 +153,8 @@
 </head>
 <body>
   <header id="header">
-    <div class="innertube">
-                <pre>Adopting instead of buying
+    <div class="innerheader">
+                      <pre>Adopting instead of buying
       Neutering iinstead of killing</pre>
     </div>
   </header>
@@ -169,8 +181,8 @@
   </div>
   
   <footer id="footer">
-    <div class="innertube">
-                <pre>TEL:02-2662-0375  FAX:02-2662-5891  E-Mail:ghaa.tw@gmail.com
+    <div class="innerfooter">
+                      <pre>TEL:02-2662-0375  FAX:02-2662-5891  E-Mail:ghaa.tw@gmail.com
       本網站由台科大應用外語系 XXXXX 小組義務製作 </pre>
     </div>
   </footer>
